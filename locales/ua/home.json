@@ -1,0 +1,17 @@
+{
+  "title": "Weather",
+  "mapTitle": "Найдiть потрiбне вам мiсто, та нажмiть на нього",
+  "pressure": "Тиск",
+  "mm": "мм",
+  "feels": "Вiдчуваеться як",
+  "clearSky": "Чисте небо",
+  "fewClouds": "Пара хмар",
+  "scatteredClouds": "Розсіяні хмари",
+  "brokenClouds": "Невеликi хмари",
+  "overcastClouds" : "Велика хмарнicть",
+  "showerRain": "Злива",
+  "rain": "Дощ",
+  "thunderstorm": "Гроза",
+  "snow": "Снiг",
+  "mist": "Туман"
+}

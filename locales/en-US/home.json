@@ -1,0 +1,17 @@
+{
+  "title": "Weather",
+  "mapTitle": "Search city that you interested in , and click on it",
+  "pressure": "Pressure",
+  "mm":"mm",
+  "feels": "Feels like",
+  "clearSky": "Clear sky",
+  "fewClouds": "Few clouds",
+  "scatteredClouds": "Scattered clouds",
+  "brokenClouds": "Broken clouds",
+  "overcastClouds" : "Overcast Clouds",
+  "showerRain": "Shower rain",
+  "rain": "Rain",
+  "thunderstorm": "Thunderstorm",
+  "snow": "Snow",
+  "mist": "Mist"
+}

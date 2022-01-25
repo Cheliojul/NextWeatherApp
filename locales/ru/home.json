@@ -1,0 +1,17 @@
+{
+  "title": "Weather",
+  "mapTitle": "Найдите интересующий вас город, и нажмите на него",
+  "pressure": "Давление",
+  "mm": "мм",
+  "feels": "Чувствуется как",
+  "clearSky": "Чистое небо",
+  "fewClouds": "Пара облаков",
+  "scatteredClouds": "Рассеянные облака",
+  "brokenClouds": "Небольшая облачность",
+  "overcastClouds" : "Большая облачность",
+  "showerRain": "Ливень",
+  "rain": "Дождь",
+  "thunderstorm": "Гроза",
+  "snow": "Снег",
+  "mist": "Туман"
+}

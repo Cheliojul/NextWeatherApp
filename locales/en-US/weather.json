@@ -1,0 +1,12 @@
+{
+  "title": "Weather",
+  "clearSky": "Clear sky",
+  "fewClouds": "Few clouds",
+  "scatteredClouds": "Scattered clouds",
+  "brokenClouds": "Broken clouds",
+  "showerRain": "Shower rain",
+  "rain": "Rain",
+  "thunderstorm": "Thunderstorm",
+  "snow": "Snow",
+  "mist": "Mist"
+}
