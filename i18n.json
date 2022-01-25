@@ -1,0 +1,10 @@
+{
+  "locales": ["en-US", "ua", "ru"],
+  "path":"/lib/locales",
+  "defaultLocale": "en-US",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/about": ["about"]
+  }
+}

@@ -1,7 +1,9 @@
 import axios from 'axios';
+
 const defaultOptions = {};
-export const instance = axios.create();
-// Add a request interceptor
+
+export const instance = axios.create(defaultOptions);
+
 axios.interceptors.request.use(
   function (config) {
     // Do something before request is sent
@@ -13,7 +15,6 @@ axios.interceptors.request.use(
   }
 );
 
-// Add a response interceptor
 axios.interceptors.response.use(
   function (response) {
     // Any status code that lie within the range of 2xx cause this function to trigger

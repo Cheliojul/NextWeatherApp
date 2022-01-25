@@ -1,0 +1,12 @@
+{
+  "title": "Weather",
+  "clearSky": "Чистое небо",
+  "fewClouds": "Пару облаков",
+  "scatteredClouds": "Рассеянные облака",
+  "brokenClouds": "Разбитые облака",
+  "showerRain": "Ливень",
+  "rain": "Дождь",
+  "thunderstorm": "Гроза",
+  "snow": "Снег",
+  "mist": "Туман"
+}
