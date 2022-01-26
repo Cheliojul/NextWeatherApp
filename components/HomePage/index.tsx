@@ -11,7 +11,8 @@ import { WeatherDataType } from '../../lib/types/entities';
 const HomePage: NextPage = () => {
   const initialState = MockWeatherData;
   const { t } = useTranslation();
-  const [weatherData, setWeatherData] = useState<WeatherDataType>(initialState);
+  const [weatherDatas, setWeatherDatas] =
+    useState<WeatherDataType[]>(initialState);
   const [coords, setCoords] = useState({
     lat: 0,
     lng: 0,
@@ -25,7 +26,7 @@ const HomePage: NextPage = () => {
     const result = await instance.get(
       `http://api.openweathermap.org/data/2.5/weather?lat=${coords.lat}&lon=${coords.lng}&appid=${process.env.NEXT_PUBLIC_WEATHER_API_KEY}`
     );
-    setWeatherData(result.data);
+    setWeatherDatas([...weatherDatas, result.data]);
   };
 
   useEffect(() => {
@@ -38,7 +39,9 @@ const HomePage: NextPage = () => {
         {t('home:mapTitle')}
       </p>
       <RegularMap onClick={handleMapClick} />
-      <WeatherDataCard weatherData={weatherData} />
+      {weatherDatas.map((weather, index) => (
+        <WeatherDataCard weatherData={weather} key={index} />
+      ))}
     </div>
   );
 };
